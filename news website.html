@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <div class="logo-title">
+        <img src="https://files.oaiusercontent.com/file-LCbOSwJq5I0ADFV45eYmRqAm?se=2024-10-30T11%3A01%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D83fecfa8-deb3-4169-82d3-e29d4b1c3d6d.webp&sig=M/W%2BJOaWFBiNTd2sWgdmc5ukmV2MWJw4O4cDpWiXC4E%3D" alt="Website Logo" class="logo" style="width: 200px; height: auto;">
+        <title>Daily Chronicles</title>
+    </div>
+</header>
+    <title>Daily Chronicles</title>
+<body>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Garamond,'Times New Roman';
+        }
+
+        body {
+            background:rgb(80, 9, 9);
+            color:rgb(57, 54, 54);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #FFE6A5, #d5bb9f);
+            color: rgb(3, 1, 1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: rgb(19, 6, 6);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color:rgb(112, 83, 148);
+        }
+
+        .headline {
+            padding: 20px;
+            text-align: center;
+            background:rgb(206, 92, 121);
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .headline-img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 5px solid rgb(26, 26, 91);
+        }
+
+        .headline-content h2 {
+            font-size: 2em;
+            margin: 10px 0;
+            color:rgb(4, 4, 26);
+        }
+
+        .headline-content p {
+            font-size: 1.1em;
+            color: white;
+        }
+
+        .articles {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+
+        .articles h2 {
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color:rgb(134, 104, 48);
+        }
+
+        .article-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        article {
+            background: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        article img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        article h3 {
+            margin: 10px 0;
+            font-size: 1.4em;
+            color:rgb(32, 147, 147);
+        }
+
+        article p {
+            font-size: 0.95em;
+            color:gray;
+        }
+
+        article a {
+            color: rgb(29, 94, 191);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        article a:hover {
+            color:rgb(38, 81, 174);
+        }
+
+        footer {
+            background: hsl(210, 10%, 23%);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .footer-links a {
+            color:gold;
+            margin: 0 5px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color:white;
+        }
+    </style>
+    </body>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Daily Chronicles</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://www.thehindu.com/news/national/">India</a></li>
+                <li><a href="https://www.thehindu.com/news/international/">World</a></li>
+                <li><a href="https://www.thehindu.com/sport/">Sports</a></li>
+                <li><a href="https://www.thehindu.com/sci-tech/technology/">Technology</a></li>
+                <li><a href="https://www.thehindu.com/elections/">Elections</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="headline">
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/festive-rush--unreserved-seats-how-stampede-broke-out-at-crowded-bandra-terminus-270842615-16x9_0.jpg?VersionId=Zmk0nDU4OYQrAFK_mQIIbonT4QGS9D18&size=690:388" class="headline-img">
+        <div class="headline-content">
+            <h2>Today's Top Story</h2>
+            <p>Festive rush, unreserved seats: How stampede broke out at crowded Bandra Terminus</p>
+            <p>At least ten people were injured during the rush to board the Bandra-Gorakhpur Antyodaya Express. The incident occurred early in the morning, prompting concerns about crowd management during the busy Diwali season</p>
+        </div>
+    </section>
+
+    <section class="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-grid">
+            <article>
+                <img src="https://media.assettype.com/newindianexpress%2F2024-01%2F69ada12d-307f-489d-886d-e90cf6370782%2FTraffic.jpg?w=1024&auto=format%2Ccompress&fit=max" alt="Article Image">
+                <h3>Traffic Restrictions in Bengaluru Due to VVIP Visit</h3>
+                <p>Extensive traffic restrictions will be in place in Bengaluru over the weekend in anticipation of a VVIP visit. This includes prohibited parking on key roads, which is expected to impact daily commuters significantly</p>
+                <a href="">Read more</a>
+            </article>
+
+            <article>
+                <img src="https://media.assettype.com/outlookindia/2024-10-26/b2yp9jeg/Philippines-Asia-Tropical-Storm-Trami1.jpg??w=1080&auto=format%2Ccompress&fit=max" alt="Article Image">
+                <h3>Tropical Storm Trami</h3>
+                <p>The storm has caused devastating floods and landslides in the Philippines, leading to at least 126 deaths or individuals missing. President Ferdinand Marcos has pledged to initiate a flood control project to address these issues​
+                </p>
+                <a href="">Read more</a>
+            </article>
+
+            <article>
+                <img src="https://www.royalchallengers.com/PRRCB01/public/styles/1061x767_landscape/public/2024-10/dl.beatsnoop.com-3000-OdneJj83oK.jpg?itok=7q7p_TB6" alt="Article Image">
+                <h3>New Zealand Stuns India with Historic Series Win</h3>
+                <p>New Zealand achieved a remarkable victory over India in a recent Test series, marking a significant upset in cricket. The Kiwis clinched the series with strong performances, overcoming one of cricket's powerhouses. This result has sparked discussions about India's transition phase as they adapt to new players while trying to maintain their competitive edge.</p>
+                <a href="">Read more</a>
+            </article>
+
+            <article>
+                <img src="https://www.aljazeera.com/wp-content/uploads/2024/10/2024-10-28T053918Z_1326080518_RC2HTAAEV8D3_RTRMADP_3_JAPAN-ELECTION-ISHIBA-1730105807.jpg?resize=770%2C513&quality=80" alt="Article Image">
+                <h3>Japan PM Ishiba says will stay in office despite election setback</h3>
+                <p>Japan’s Prime Minister Shigeru Ishiba has pledged to stay in office despite receiving a major blow in Sunday’s snap election he called himself to shore up more support for his party.</p>
+                <a href="">Read more</a>
+            </article>
+
+            <article>
+                <img src="https://www.hindustantimes.com/ht-img/img/2024/10/29/550x309/Army_1730171494810_1730171505867.jpg">
+                <h3>Jammu and Kashmir: Third terrorist gunned down in operation in Akhnoor</h3>
+                <p>The security forces on Tuesday gunned down two terrorists as the encounter in Jammu and Kashmir's Akhnoor resumed on Tuesday morning.</p>
+                <a href="">Read more</a>
+            </article>
+
+            <article>
+                <img src="https://www.hindustantimes.com/ht-img/img/2024/10/29/550x309/The-success-of-Ayushman-Bharat-thus-far-reflects-t_1730170526951_1730170546010.jpg">
+                <h3>PM Narendra Modi to launch health coverage for senior citizens above 70 today</h3>
+                <p>The scheme aimed at healthcare for senior citizens is expected to benefit an estimated six crore citizens in about 4.5 crore household</p>
+                <a href="">Read more</a>
+            </article>
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Daily Chronicles. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="">Privacy Policy</a> | 
+            <a href="">Terms of Use</a> | 
+            <a href="">Contact Us</a>
+        </div>
+    </footer>
+
+</body>
+</html>
